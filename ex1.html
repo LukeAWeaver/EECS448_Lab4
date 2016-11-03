@@ -1,0 +1,36 @@
+<html>
+ <head>
+  <title>EXERCISE 1</title>
+ </head>
+ <body>
+<table>
+
+<?php 
+for ($y = 1; $y <= 100; $y++)
+{
+?>
+
+<tr>
+
+<?php
+for ($x = 1; $x <= 100; $x++)
+{
+
+?>
+<td>
+
+<?php
+$z = $y*$x;
+echo "$z";
+?>
+</td>
+<?php
+}
+?>
+</tr>
+<?php
+}
+?>
+</table>
+ </body>
+</html>
